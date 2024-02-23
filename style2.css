@@ -1,0 +1,29 @@
+@media (max-width: 1366px) {
+  .second_page_image,
+  .fourth_page_image {
+    /* display: flex; */
+    width: 2rem;
+    height: 22rem;
+    margin-right: 9rem;
+  }
+  body {
+    width: 82rem;
+    /* object-fit: fill; */
+  }
+  .page_text,
+  .fourth_page_text {
+    margin-bottom: 7rem;
+    margin-left: 7rem;
+    /* margin-right: 3.9rem; */
+  }
+  .third_page_text,
+  .fifth_page_text {
+    margin-right: 9rem;
+  }
+  .third_page_image,
+  .fifth_page_image {
+    margin-left: 9rem;
+    width: 2rem;
+    height: 22rem;
+  }
+}
