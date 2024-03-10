@@ -21,7 +21,7 @@
 }
 .bg {
   /* background-color: (0, 0, 0, 0.9); */
-  width: 100%;
+  width: 100vw;
   background-image: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.8) 0,
@@ -283,11 +283,8 @@ h2 {
   height: 55rem;
   padding: 4.5rem 0;
 }
-.sixth_page_head {
-  /* display: flex; */
-}
 .sixth_heading {
-  width: 60rem;
+  width: 60vw;
   margin-left: 30rem;
   font-size: 3rem;
   font-weight: 900;
