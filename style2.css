@@ -43,7 +43,7 @@
     height: 87vh;
   }
   .bg {
-    width: 100%;
+    width: 217.5vh;
     background-image: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8) 0,
@@ -55,7 +55,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    height: 100vh;
+    height: 87vh;
   }
   .head {
     display: flex;
@@ -116,7 +116,7 @@
     padding-left: 0.25rem;
   }
   .first_text {
-    margin-left: 37rem;
+    margin-left: 32rem;
   }
   .email {
     border-radius: 0.35rem;
@@ -126,7 +126,6 @@
     padding: 0.5rem 0.7rem 0.5rem;
     background-color: rgba(39, 37, 37, 0.895);
     color: aliceblue;
-    margin-left: 30rem;
   }
   .email_button {
     text-align: left;
@@ -156,15 +155,118 @@
   }
 
   .question_div {
-    width: 70vw;
-    margin-left: 50vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 4.75rem;
     background-color: rgb(32, 29, 29);
     margin: 1rem 0 0;
+    margin-left: 4rem;
     padding-left: 1rem;
     border-radius: 0.3rem;
+  }
+  .ans_div {
+    width: 275vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .head {
+    padding: 1rem;
+  }
+
+  .logo {
+    width: 6rem;
+  }
+
+  .right {
+    gap: 1rem;
+  }
+
+  .launguage {
+    width: 4rem;
+    height: 1.5rem;
+  }
+
+  .first_page {
+    background-image: url(header-image.png);
+    height: 87vh;
+  }
+
+  .bg {
+    width: 100vw;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+  }
+
+  .head {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 9rem;
+  }
+
+  .logo {
+    width: 9rem;
+  }
+
+  .right {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .launguage {
+    width: 6rem;
+    color: aliceblue;
+    background: transparent;
+    height: 2rem;
+    border-radius: 0.25rem;
+    border: none;
+  }
+
+  .sign_button,
+  .started_button {
+    height: 2rem;
+    background-color: red;
+    color: white;
+    width: 4.806rem;
+    border-radius: 0.25rem;
+    border-color: red;
+  }
+
+  .sign_button,
+  .started_button {
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1rem;
+  }
+  .sixth_heading {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+  }
+
+  .question_div {
+    width: 275vw;
+    margin-left: 6rem;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+
+  .ans_div {
+    width: 275vw;
+    margin-left: 7rem;
+    margin-right: auto;
+    margin-top: 1rem;
   }
 }
