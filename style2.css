@@ -149,15 +149,15 @@
     gap: 0.4rem;
   }
   .sixth_heading {
-    width: 70vw; /* Adjust the width as needed */
-    margin-left: 30vw; /* Adjust the margin as needed */
+    width: 70vw;
+    margin-left: 30vw;
     font-size: 3rem;
     font-weight: 900;
   }
 
   .question_div {
-    width: 70vw; /* Adjust the width as needed */
-    margin-left: 50vw; /* Adjust the margin as needed */
+    width: 70vw;
+    margin-left: 50vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
